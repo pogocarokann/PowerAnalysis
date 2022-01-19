@@ -1,6 +1,6 @@
 # PowerAnalysis
 
-[leidwesen.github.io/PowerAnalysis](leidwesen.github.io/PowerAnalysis)
+[leidwesen.github.io/PowerAnalysis](https://leidwesen.github.io/PowerAnalysis/)
 
 JS offers a UI, and uses the [libRMath.js](https://github.com/R-js/libRmath.js) port of R. The library is ~0.5MB.
 
