@@ -2,9 +2,11 @@
 
 [leidwesen.github.io/PowerAnalysis](leidwesen.github.io/PowerAnalysis)
 
-JS offers a UI, and uses the [libRMath.js](https://github.com/R-js/libRmath.js) port of R.
+JS offers a UI, and uses the [libRMath.js](https://github.com/R-js/libRmath.js) port of R. The library is ~0.5MB.
 
 Python is faster, but must be run locally without UI (edit variables then run through CLI), requires numpy and scipy.
+
+Rebuilt from the skeleton of PiFlavour's [PowerAnalysis](https://github.com/PiFlavour/PowerAnalysis).
 
 ## What's a Power Analysis ?
 
