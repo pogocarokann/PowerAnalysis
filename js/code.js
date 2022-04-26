@@ -153,7 +153,7 @@ function parseArray(arrstr) {
     }
     if (totalp != 1) {
         numarr <- numarr / totalp
-        addStr(`Total probability != 1. Stardardizing probability vector to ${numarr.toString()}`);
+        addStr(`Total probability != 1. Stardardizing probability vector to [${numarr}]`);
     }
     return [true, numarr]
 }
