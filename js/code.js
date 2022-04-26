@@ -148,8 +148,12 @@ function parseArray(arrstr) {
 	numarr.push(numnum)
     }
     let totalp = sum(numarr);
+    if (totalp <= 0) {
+        return [false, `ERROR: total probability should be greater than 0, not ${totalp}`];
+    }
     if (totalp != 1) {
-	return [false, `ERROR: total probability should be 1, not ${totalp}`];
+        numarr <- numarr / totalp
+        addStr(`Total probability != 1. Stardardizing probability vector to ${numarr.toString()}`);
     }
     return [true, numarr]
 }
